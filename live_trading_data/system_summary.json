@@ -1,0 +1,30 @@
+{
+  "system_name": "S&P 500 Momentum Trading System",
+  "created": "2026-03-11 09:29:17",
+  "strategy": {
+    "lookback_months": 6,
+    "holding_months": 3,
+    "skip_days": 21,
+    "n_positions": 50,
+    "rebalance_frequency": "quarterly"
+  },
+  "risk_management": {
+    "max_position_size": 0.05,
+    "cash_buffer": 0.02
+  },
+  "portfolio": {
+    "initial_capital": 100000,
+    "position_sizing": "equal_weight"
+  },
+  "execution": {
+    "broker": "PaperBroker",
+    "check_time": "15:45",
+    "rebalance_months": [
+      3,
+      6,
+      9,
+      12
+    ]
+  },
+  "status": "Active - Paper Trading"
+}
