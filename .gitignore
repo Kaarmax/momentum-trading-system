@@ -1,0 +1,21 @@
+# Credentials
+.env
+
+# Cached price data (auto-regenerated)
+*.pkl
+
+# Database & logs
+*.db
+live_trading_data/logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
