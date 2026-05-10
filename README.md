@@ -50,10 +50,38 @@ Tested on 20 years of data (2006-03-18 → 2026-03-18), $100,000 starting capita
 
 The strategy outperformed the TSX index in **16 of 19 years**.
 
-![Performance chart](blended_momentum_performance.png)
-![Annual returns](blended_annual_returns.png)
+---
 
-> **Note:** Returns are in local currency (CAD for TSX positions, USD for S&P 500 positions). Past performance does not guarantee future results.
+### Cumulative growth, drawdowns & rolling Sharpe
+
+![Cumulative returns, drawdown, and rolling Sharpe ratio](blended_momentum_performance.png)
+
+**Top panel — Portfolio growth (normalized to 1.0 at start):**  
+The red line is the momentum strategy; the dashed blue line is the TSX index. The strategy grew to ~84× while the index grew to ~2.5×. The gap widens significantly after 2019 as tech momentum compounds.
+
+**Middle panel — Drawdowns:**  
+Both lines show peak-to-trough losses. The strategy's worst drawdown was **-51.8%** (2008–2009 financial crisis). Recoveries were faster than the index in every downturn after 2011.
+
+**Bottom panel — Rolling 2-year Sharpe ratio:**  
+Measures risk-adjusted returns over any rolling 2-year window. Values above 1.0 (dashed line) indicate strong risk-adjusted performance. The strategy has spent most of the last decade above 1.0.
+
+---
+
+### Annual returns vs TSX index
+
+![Annual returns vs TSX index](blended_annual_returns.png)
+
+Each bar pair shows the strategy (red) vs TSX index (blue) for that calendar year. Green labels show the alpha (outperformance) when the strategy beat the index.
+
+Key takeaways:
+- **2008 crash:** Strategy lost 41% vs index's 35% — momentum strategies suffer in sharp reversals
+- **2020–2021:** +75% and +80% — tech/growth momentum was exceptionally strong
+- **2022:** +3.8% vs index's -8.7% — held up well as energy/commodity stocks dominated momentum
+- **Consistent alpha:** The strategy rarely trails the index, and when it does, the gap is small
+
+---
+
+> **Note:** Returns are in local currency (CAD for TSX positions, USD for S&P 500 positions). Past performance does not guarantee future results. The strategy carries meaningful volatility — max drawdown of -51.8% requires a long time horizon.
 
 ---
 
